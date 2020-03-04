@@ -2,6 +2,7 @@ var ratio, windowRatio;
 var w = window.innerWidth,
   h = window.innerHeight;
   var scale = w/1024; // w/width
+
 function handleResize(event) {
   ratio = 1024/768; // width/height
   windowRatio = w/h;
